@@ -1,5 +1,5 @@
 FROM arm32v7/debian:latest
-MAINTAINER Miguel Barajas (GnuOwned) <migbarajas@gmail.com>
+MAINTAINER Raul Plaza (ZilverNet) <source@zilvernet.com>
 
 RUN echo "deb http://apt.ntop.org/buster_pi armhf/" > /etc/apt/sources.list.d/ntop.list
 RUN echo "deb http://apt.ntop.org/buster_pi all/" >> /etc/apt/sources.list.d/ntop.list
