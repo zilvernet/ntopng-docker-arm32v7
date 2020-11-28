@@ -1,8 +1,8 @@
 FROM arm32v7/debian:latest
 MAINTAINER Miguel Barajas (GnuOwned) <migbarajas@gmail.com>
 
-RUN echo "deb http://apt.ntop.org/stretch_pi armhf/" > /etc/apt/sources.list.d/ntop.list
-RUN echo "deb http://apt.ntop.org/stretch_pi all/" >> /etc/apt/sources.list.d/ntop.list
+RUN echo "deb http://apt.ntop.org/buster_pi armhf/" > /etc/apt/sources.list.d/ntop.list
+RUN echo "deb http://apt.ntop.org/buster_pi all/" >> /etc/apt/sources.list.d/ntop.list
 
 RUN apt-get clean all
 RUN apt-get update
